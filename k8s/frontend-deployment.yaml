@@ -20,7 +20,7 @@ spec:
         image: frontend:latest
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 3000
+        - containerPort: 80
           name: http
         env:
         - name: REACT_APP_API_URL
